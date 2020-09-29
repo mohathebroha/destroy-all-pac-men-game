@@ -1,2 +1,2 @@
 # destroy-all-pac-men-game
-Play as a lone ghost in a quest to defeat four Pac-Men
+Play as lone ghost Blinky in a quest to defeat all Pac-Men
