@@ -16142,6 +16142,9 @@ GameObject:
   - component: {fileID: 970908526}
   - component: {fileID: 970908527}
   - component: {fileID: 970908528}
+  - component: {fileID: 970908529}
+  - component: {fileID: 970908530}
+  - component: {fileID: 970908531}
   m_Layer: 0
   m_Name: Blinky
   m_TagString: Untagged
@@ -16247,9 +16250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e243506616b5c2546924bd3a59cdf1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  playerRigidBody: {fileID: 970908525}
-  animator: {fileID: 970908527}
 --- !u!95 &970908527
 Animator:
   serializedVersion: 3
@@ -16303,6 +16303,45 @@ PolygonCollider2D:
       - {x: 0.34279633, y: -0.31861115}
       - {x: 0.30651808, y: 0.21575928}
       - {x: 0.18151855, y: 0.3165741}
+--- !u!114 &970908529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970908522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736ebebaad1c04f46a9117e2dcea3a11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  characterRigidBody: {fileID: 970908525}
+--- !u!114 &970908530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970908522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2d21f854d1e5c49b848d33dbb14080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+--- !u!114 &970908531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970908522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d20672e3d3eff4f9dfeb801789de02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &989436191
 PrefabInstance:
   m_ObjectHideFlags: 0
